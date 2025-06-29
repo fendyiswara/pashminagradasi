@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pashmina Gradasi Ombre - Hijab Premium 2 Warna</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8fafc;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+        
+        .promo-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #ef4444;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .countdown-box {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 10px;
+            min-width: 60px;
+            text-align: center;
+        }
+        
+        .testimonial-card {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .color-variant {
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .color-variant:hover {
+            border-color: #3b82f6;
+            transform: scale(1.05);
+        }
+        
+        .color-variant.active {
+            border-color: #3b82f6;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        
+        .feature-icon {
+            width: 50px;
+            height: 50px;
+            background: #3b82f6;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <!-- Header -->
+    <header class="gradient-bg text-white py-4">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold">Pashmina<span class="text-blue-200">Lux</span></div>
+                <div class="hidden md:flex space-x-6">
+                </div>
+                <button class="md:hidden text-xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-8">
+        <div class="container mx-auto px-4">
+            <div class="relative">
+                <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbke-m9r4uwmt1opq54.webp" alt="Pashmina Gradasi Ombre" class="w-full rounded-lg shadow-xl">
+                <div class="promo-badge">PROMO TERBATAS!</div>
+            </div>
+            
+            <div class="mt-8 text-center">
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Pashmina Gradasi Ombre</h1>
+                <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+                    Hijab Pashmina 2 Warna – Dua Warna, Satu Gaya yang Lebih Menawan. Tampil beda dan lebih stylish dengan Pashmina 2 Warna yang unik dan kekinian! Hijab ini hadir dengan desain dual-tone yang memberi kesan fresh dan modern. Cocok untuk kamu yang ingin tampil elegan namun tetap simpel.
+                </p>
+                <p class="text-lg text-gray-700 max-w-3xl mx-auto mt-4">
+                    Terbuat dari bahan lembut dan ringan (diamond crepe premium), mudah dibentuk, dan nyaman dipakai seharian. Dengan dua warna dalam satu pashmina, kamu bisa mix & match gaya hijab sesuai mood atau outfit. Satu hijab, banyak gaya!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-12 bg-blue-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Keunggulan Produk Kami</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <div class="feature-icon mx-auto">
+                        <i class="fas fa-heart text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Bahan Premium</h3>
+                    <p class="text-gray-600">Dibuat dari diamond crepe premium yang lembut, ringan, dan tidak mudah kusut.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <div class="feature-icon mx-auto">
+                        <i class="fas fa-palette text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Gradasi Warna Eksklusif</h3>
+                    <p class="text-gray-600">Desain ombre dengan perpaduan dua warna yang harmonis dan stylish.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <div class="feature-icon mx-auto">
+                        <i class="fas fa-tshirt text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Nyaman Dipakai</h3>
+                    <p class="text-gray-600">Ringan dan breathable, cocok untuk aktivitas sehari-hari maupun acara formal.</p>
+                </div>
+            </div>
+            
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk1-m9r4uwmt33a653.webp" alt="Detail Pashmina" class="w-full rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Detail Jahitan Premium</h3>
+                    <p class="text-gray-600">Jahitan rapi dan kuat dengan teknik khusus yang membuat pashmina lebih tahan lama.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbka-m9r4uwmta44eb5.webp" alt="Kualitas Pashmina" class="w-full rounded-lg mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Kualitas Terbaik</h3>
+                    <p class="text-gray-600">Setiap pashmina melalui proses quality control ketat untuk memastikan kualitas terbaik.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Details -->
+    <section id="details" class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Detail Produk</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk1-m9r4uwmt33a653.webp" alt="Detail 1" class="w-full rounded-lg">
+                    <p class="mt-3 text-center text-gray-700">Tampilan depan dengan gradasi warna yang smooth</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbka-m9r4uwmt4humdd.webp" alt="Detail 2" class="w-full rounded-lg">
+                    <p class="mt-3 text-center text-gray-700">Perpaduan warna yang sempurna dari berbagai angle</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk5-m9r4uwmtbioub6.webp" alt="Detail 3" class="w-full rounded-lg">
+                    <p class="mt-3 text-center text-gray-700">Tekstur bahan yang premium dan nyaman</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Color Variants -->
+    <section class="py-12 bg-blue-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8 text-gray-900">Varian Warna Tersedia</h2>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Pilih warna favorit Anda untuk tampilan yang lebih personal</p>
+            
+            <div class="flex flex-wrap justify-center gap-6">
+                <div class="color-variant active rounded-lg overflow-hidden">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk0-m9r555cfr6z1e3.webp" alt="Varian Warna 1" class="w-40 h-40 object-cover">
+                </div>
+                <div class="color-variant rounded-lg overflow-hidden">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk0-m9r555cflkp94a.webp" alt="Varian Warna 2" class="w-40 h-40 object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Apa Kata Pelanggan Kami</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="testimonial-card bg-white p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 text-xl font-bold mr-4">A</div>
+                        <div>
+                            <h4 class="font-semibold">Anisa Rahma</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Bahan pashminanya sangat nyaman dipakai seharian, tidak gerah sama sekali. Gradasi warnanya juga smooth dan elegan. Sudah beli 3 warna berbeda!"</p>
+                </div>
+                
+                <div class="testimonial-card bg-white p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 text-xl font-bold mr-4">D</div>
+                        <div>
+                            <h4 class="font-semibold">Dinda Permata</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Kualitas jahitannya rapi banget, bahannya juga jatuh dengan sempurna. Cocok untuk acara formal maupun casual. Packingnya juga aman dan cepat sampai."</p>
+                </div>
+                
+                <div class="testimonial-card bg-white p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 text-xl font-bold mr-4">S</div>
+                        <div>
+                            <h4 class="font-semibold">Sarah Wijaya</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Warnanya persis seperti di foto, tidak mudah luntur meski sudah beberapa kali dicuci. Ukurannya pas dan mudah dibentuk. Akan beli lagi warna lainnya!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Countdown -->
+    <section class="py-12 gradient-bg text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">PROMO SPESIAL HARI INI!</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Dapatkan Diskon Spesial Untuk Hari Ini Saja, Harga Akan Kembali Normal Setelah:</p>
+            
+            <div class="flex justify-center space-x-4 mb-8">
+                <div class="countdown-box">
+                    <div class="text-3xl font-bold" id="countdown-hours">12</div>
+                    <div class="text-sm">Jam</div>
+                </div>
+                <div class="countdown-box">
+                    <div class="text-3xl font-bold" id="countdown-minutes">45</div>
+                    <div class="text-sm">Menit</div>
+                </div>
+                <div class="countdown-box">
+                    <div class="text-3xl font-bold" id="countdown-seconds">30</div>
+                    <div class="text-sm">Detik</div>
+                </div>
+            </div>
+            
+            <div class="bg-white text-gray-800 rounded-lg p-6 max-w-2xl mx-auto">
+                <div class="flex justify-between items-center mb-4">
+                    <div class="text-2xl font-bold text-red-500">HARGA PROMO: Rp 140.000</div>
+                    <div class="text-lg text-gray-500 line-through">Rp 195.000</div>
+                </div>
+                <div class="text-lg font-semibold text-blue-600">Anda Hemat Rp 55.000 (28%)</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Notes -->
+    <section class="py-8 bg-yellow-50">
+        <div class="container mx-auto px-4">
+            <div class="bg-white p-6 rounded-lg shadow max-w-4xl mx-auto">
+                <h3 class="text-xl font-semibold mb-4 text-center">Catatan Penting:</h3>
+                <ul class="space-y-2 text-gray-700">
+                    <li class="flex items-start">
+                        <i class="fas fa-truck mr-3 mt-1 text-blue-500"></i>
+                        <span>Pengiriman 2 - 4 Hari Setelah Pemesanan</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-map-marker-alt mr-3 mt-1 text-blue-500"></i>
+                        <span>Mohon Isi Alamat Dengan Lengkap</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-certificate mr-3 mt-1 text-blue-500"></i>
+                        <span>100% Product Original</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="py-12">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="relative mb-8">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbka-m9r4uwmta44eb5.webp" alt="Promo Diskon" class="w-full rounded-lg shadow-lg">
+                    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6 rounded-b-lg">
+                        <div class="text-white text-2xl font-bold">PROMO DISKON 28% HARI INI SAJA!</div>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-6 text-center">FORM PEMESANAN</h3>
+                    
+                    <!-- OrderOnline Embed Code -->
+                    <div class="ooef">
+                        <form class="orderonline-embed-form" data-username="rosa" data-product-slug="pashmina-gradasi-ombre" data-product-id="68617868f97d123f930fb183" id="oo-embed-form-pashmina-gradasi-ombre-5992" data-origin="orderonline">
+                            <div class="ooef-loader">
+                                <style>
+                                    .ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}
+                                    @keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}
+                                    @-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}
+                                    .ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}
+                                    .ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #55c4cf;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}
+                                    .ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}
+                                    @-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}
+                                    @keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}
+                                </style>
+                                <div aria-live="polite" role="status"><div>Loading...</div></div>
+                            </div>
+                        </form>
+                    </div>
+                    <script>
+                        if (typeof xLogError != 'function') {
+                            var xLogError = function (error) {
+                                var req = new XMLHttpRequest();
+                                var payload = JSON.stringify({ url: document.location.href, line: error.line, stack: error.stack });
+                                var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error';
+                                req.open('POST', 'https://api.orderonline.id/log', true);
+                                req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                                req.send(params);
+                            };
+                        }
+                        try {
+                            if (typeof xEmbedScript != 'function') {
+                                var xEmbedScript = function () {
+                                    !function(w, d, e, v, id, t, s) {
+                                        if (d.getElementById(id)) return;
+                                        t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                                        s = d.getElementsByTagName(e)[0];
+                                        s.parentNode.insertBefore(t, s);
+                                    }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.4', 'oo-embed-js');
+                                };
+                            }
+                            if (typeof xEmbedInit != 'function') {
+                                var xEmbedInit = function (w, n) {
+                                    if (w.ooe) return;
+                                    n = w.ooe = function() {
+                                        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                                    };
+                                    if (!w._ooe) w._ooe = n;
+                                    n.push = n;n.loaded = !0;n.version = '8.0.4';n.queue = [];
+                                };
+                            }
+                            xEmbedInit(window);
+                            ooe('setup', 'redirect', 'https://rosa.orderonline.id');
+                            ooe('init', '5f17ee268dcbdb1b55498d78', '68617868f97d123f930fb183', '68617868f97d123f930fb184', 'oo-embed-form-pashmina-gradasi-ombre-5992', {"mode":"page","action":"Klik untuk pemesanan","title":"Form Pemesanan","triggerPixel":true,"triggerGtm":false});
+                            if (!window.jQuery) {
+                                !function(w, d, e, v, id, t, s) {
+                                    if (d.getElementById(id)) return;
+                                    t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                                    t.addEventListener('load', xEmbedScript);
+                                    s = d.getElementsByTagName(e)[0];
+                                    s.parentNode.insertBefore(t, s);
+                                }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery');
+                            } else {
+                                xEmbedScript();
+                            }
+                        } catch (e) {
+                            xLogError(e);
+                            throw e;
+                        }
+                    </script>
+                    <!-- End OrderOnline Embed Code -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="gradient-bg text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <div class="text-2xl font-bold">Pashmina<span class="text-blue-200">Lux</span></div>
+                    <p class="mt-2">Hijab Premium dengan Kualitas Terbaik</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="hover:text-blue-200 transition"><i class="fab fa-instagram text-2xl"></i></a>
+                    <a href="#" class="hover:text-blue-200 transition"><i class="fab fa-whatsapp text-2xl"></i></a>
+                    <a href="#" class="hover:text-blue-200 transition"><i class="fab fa-facebook text-2xl"></i></a>
+                </div>
+            </div>
+            <div class="border-t border-blue-400 mt-6 pt-6 text-center text-sm">
+                &copy; 2025 PashminaLux. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Countdown timer
+        function updateCountdown() {
+            const now = new Date();
+            const endOfDay = new Date();
+            endOfDay.setHours(23, 59, 59, 999);
+            
+            const diff = endOfDay - now;
+            
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            
+            document.getElementById('countdown-hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('countdown-minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('countdown-seconds').textContent = seconds.toString().padStart(2, '0');
+        }
+        
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+        
+        // Color variant selection
+        const colorVariants = document.querySelectorAll('.color-variant');
+        colorVariants.forEach(variant => {
+            variant.addEventListener('click', () => {
+                colorVariants.forEach(v => v.classList.remove('active'));
+                variant.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
